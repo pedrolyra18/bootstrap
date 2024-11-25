@@ -1,0 +1,43 @@
+body {
+    background-color: #000000;
+  }
+  
+  .gradient-text {
+    font-weight: bold;
+    background: linear-gradient(90deg, #0011ff, #31278a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23f0f0f0' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23f0f0f0' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: gray;
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath d='M11.354 1.146a.5.5 0 0 1 0 .708L5.207 8l6.147 6.146a.5.5 0 0 1-.708.708l-6.5-6.5a.5.5 0 0 1 0-.708l6.5-6.5a.5.5 0 0 1 .708 0z'/%3E%3C/svg%3E");
+    background-size: 50%;
+  }
+  
+  div.carousel-item {
+    background-color: #000000;
+  }
+  
+  .carousel-item {
+    color: #f0f0f0;
+  }
+  
+  .biografy-text{
+    width:500px;
+  }
+  
